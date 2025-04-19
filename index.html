@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Initial setup: Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shutter Souls | Macrine's Portfolio</title>
+    <!-- Link to your CSS file goes here -->
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+    <!-- Commit: Add site header with nav links -->
+    <header class="site-header">
+        <h1 class="logo">Shutter Souls</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#shots">Latest Shots</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Commit: Add hero section with welcome text and image -->
+    <section class="hero">
+        <div class="hero-text">
+            <p>Hello there, nice to meet you. I am</p>
+            <h2>Macrine</h2>
+            <p>Photography to me is soul work — a silent poem of light, shadow, and feeling. On this site, you’ll find fleeting glances, sacred stillness, and bold moments that whisper a thousand words.</p>
+            <a href="#shots" class="btn">View My Work</a>
+        </div>
+        <div class="hero-img">
+            <img src="Images/Image 21.jpg" alt="Macrine portrait">
+        </div>
+    </section>
+
+    <!-- Commit: Add gallery section for latest shots -->
+    <section id="shots" class="gallery-section">
+        <h3>Latest Shots</h3>
+        <div class="gallery-grid">
+            <figure>
+                <img src="Images/Image 2.jpg" alt="Portrait in golden light">
+                <figcaption>Golden Grace</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 3.jpg" alt="Painter and model">
+                <figcaption>Studio in the Field</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 4.jpg" alt="Roasted maize with fire">
+                <figcaption>Charcoal & Corn</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 6.jpg" alt="Stylish woman with locks">
+                <figcaption>Fierce Form</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 7.jpg" alt="Women preparing food">
+                <figcaption>Market Day</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 8.jpg" alt="Woman laughing">
+                <figcaption>Joy at the Hearth</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 11.jpg" alt="Family food preparation">
+                <figcaption>Generational Hands</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 12.jpg" alt="Child in dramatic light">
+                <figcaption>Shadow Thought</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 16.jpg" alt="Person leaning on yellow wall">
+                <figcaption>Bold & Yellow</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 14.jpg" alt="Person leaning on yellow wall">
+                <figcaption>Bold & Yellow</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/Image 18.jpg" alt="Person leaning on yellow wall">
+                <figcaption>Bold & Yellow</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Commit: Add about me section with text and photo -->
+    <section id="about" class="about-section">
+        <h3>About Me</h3>
+        <div class="about-content">
+            <img src="Images/Image 1.jpg" alt="Macrine smiling">
+            <div class="bio-text">
+                <p>Hi, I’m Macrine Jangu — a creative, a filmmaker, and a curious observer of life’s quiet beauty.</p>
+                <p>Photography found me before I ever found a camera. It’s how I reflect, how I remember, and how I resist the fast pace of forgetting.</p>
+                <p>On this site, I share images that have moved me — I hope they move you too.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commit: Add contact form -->
+    <section id="contact" class="contact-section">
+        <h3>Contact</h3>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason">
+                <option value="collab">Collaboration</option>
+                <option value="feedback">Feedback</option>
+                <option value="licensing">Licensing Inquiry</option>
+                <option value="hello">Just Saying Hi</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Commit: Add site footer -->
+    <footer>
+        <p>© 2025 Macrine Jangu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
